@@ -32,3 +32,33 @@ main {
 footer {
 	grid-area: footer;
 }
+
+.footer {
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+    padding: 20px 0;
+    grid-area: footer;
+}
+
+.social {
+    list-style: none;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social img:hover {
+    transform: scale(1.2);
+}
