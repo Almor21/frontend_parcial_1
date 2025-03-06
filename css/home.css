@@ -68,6 +68,9 @@ body {
 }
 
 .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     max-width: 500px;
 }
 
@@ -87,6 +90,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    max-width: max-content;
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -272,7 +276,7 @@ body {
 
 .social {
     list-style: none;
-    padding: 0;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
     gap: 25px;
