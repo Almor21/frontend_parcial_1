@@ -1,0 +1,78 @@
+/*css for both blog and work, since they are the same, almost*/
+#footer_navMenu li{
+    list-style: none;
+    float: right;
+    margin: 15px 10px;
+}
+
+
+#mainContent{
+    margin: 70px 150px;
+}
+
+#HomeRed{
+    color: red;
+}
+
+.blogText{
+    margin-bottom: 50px;
+}
+
+.contentImage{
+    display: flex;
+    gap: 15px;
+}
+
+.contentImage img{
+    width: 100px;
+    height: 100px;
+}
+
+hr{
+    margin: 20px 0px;
+}
+
+.blogMain #borderbox{
+    border-radius: 15px;
+    background-color: rgb(3, 3, 43);
+    color: white;
+    padding: 3px;
+    box-shadow: 100 4px 10px rgb(3,3,43);
+}
+
+.blogMain h2{
+    margin: 7px 0px;
+}
+.blogMain p{
+    margin: 7px 0px;
+}
+
+.blogMain h3{
+    display: inline;
+    margin: 5px 0px;
+    white-space: pre;
+}
+
+.greyText{
+    color: lightgrey;
+}
+
+footer #imagenes{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+footer p{
+    display: block;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
