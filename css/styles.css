@@ -58,7 +58,19 @@ header {
 }
 
 main {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 	grid-area: main;
+	padding: 2rem 0;
+}
+
+
+@media (min-width: 600px) {
+	main {
+		grid-area: main;
+		padding: 3rem 11rem;
+	}
 }
 
 footer {
