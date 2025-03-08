@@ -32,3 +32,22 @@ main {
 footer {
 	grid-area: footer;
 }
+
+footer #imagenes{
+    display: flex;
+    gap: 0.625rem;
+    justify-content: center;
+    padding-bottom: 0.625rem;
+    
+}
+
+footer img{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+footer p{
+    display: block;
+    text-align: center;
+    padding-bottom: 4.0625rem;
+}
