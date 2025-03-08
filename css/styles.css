@@ -62,6 +62,12 @@ main {
 	padding: 3rem 11rem;
 }
 
+@media (max-width: 600px) {
+	main {
+		grid-area: main;
+	}
+}
+
 footer {
 	grid-area: footer;
 }
