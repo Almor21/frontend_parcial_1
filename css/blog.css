@@ -31,8 +31,8 @@
 }
 
 .contentImage img{
-    width: 9.25rem;
-    height: 9.25rem;
+    width: 10rem;
+    height: 10rem;
 }
 
 hr{
@@ -52,8 +52,10 @@ hr{
     border-radius: 1rem;
     background-color: rgb(3, 3, 43);
     color: white;
-    padding: 0.125rem;
+    padding: 0.125rem 0.75rem;
+    margin-right: 1.75rem;
     box-shadow: 100 0.25rem 0.625rem rgb(3,3,43);
+
 }
 
 .blogMain h2{
