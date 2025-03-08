@@ -268,19 +268,19 @@ body {
     line-height: 1.5;
 }
 
-@media (max-width: 64rem) {
+@media (max-width: 1024px) {
     body {
         padding: 0 6.25rem;
     }
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 768px) {
     body {
         padding: 0 1.25rem;
     }
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 768px) {
     .nav {
         flex-direction: column;
         align-items: center;
@@ -293,7 +293,7 @@ body {
     }
 }
 
-@media (max-width: 64rem) {
+@media (max-width: 1024rem) {
     .hero {
         flex-direction: column-reverse;
         text-align: center;
@@ -320,13 +320,13 @@ body {
     }
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 768rem) {
     .posts-container {
         grid-template-columns: 1fr;
     }
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 768rem) {
     .work-item {
         flex-direction: column;
         align-items: center;
