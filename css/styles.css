@@ -58,13 +58,18 @@ header {
 }
 
 main {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 	grid-area: main;
-	padding: 3rem 11rem;
+	padding: 2rem 0;
 }
 
-@media (max-width: 600px) {
+
+@media (min-width: 600px) {
 	main {
 		grid-area: main;
+		padding: 3rem 11rem;
 	}
 }
 
