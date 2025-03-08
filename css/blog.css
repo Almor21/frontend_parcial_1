@@ -1,5 +1,5 @@
 /*css for both blog and work, since they are the same, almost*/
-#footer_navMenu li{
+#footerNavMenu li{
     list-style: none;
     float: right;
     margin: 1rem 0.625rem;
@@ -10,7 +10,7 @@
     margin: 4.375rem 9.375rem;
 }
 
-#HomeRed{
+#homeRed{
     color: red;
 }
 
@@ -21,6 +21,13 @@
 .contentImage{
     display: flex;
     gap: 1rem;
+}
+
+@media (max-width: 768px){
+    .contentImage{
+        display: block;
+        padding: 0.25rem 0rem;
+    }
 }
 
 .contentImage img{
