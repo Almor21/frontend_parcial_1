@@ -59,6 +59,7 @@ header {
 
 main {
 	grid-area: main;
+	padding: 3rem 11rem;
 }
 
 footer {
