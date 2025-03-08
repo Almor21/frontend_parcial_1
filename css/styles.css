@@ -62,7 +62,7 @@ main {
 	flex-direction: column;
 	gap: 2rem;
 	grid-area: main;
-	padding: 2rem 0;
+	padding: 2rem 1.2rem;
 }
 
 

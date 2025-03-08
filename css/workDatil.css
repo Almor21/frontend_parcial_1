@@ -1,0 +1,33 @@
+img {
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.title {
+    font-weight: bold;
+    max-width: 32rem;
+    font-size: 1.8rem;
+}
+
+.box-subtitle {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0.2rem;
+    gap: 1.3rem;
+}
+
+.box-subtitle span {
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 0 1rem;
+    border-radius: 1rem;
+    height: min-content;
+    font-weight: bold;
+}
