@@ -81,47 +81,6 @@ body {
 	background-color: var(--white);
 	color: var(--black);
 	text-align: center;
-	padding: 20px 0;
-	grid-area: footer;
-}
-
-.social {
-	list-style: none;
-	padding-bottom: 10px;
-	display: flex;
-	justify-content: center;
-	gap: 25px;
-}
-
-.social li {
-	display: inline-block;
-}
-
-.social img {
-	width: 40px;
-	height: 40px;
-	transition: transform 0.3s ease;
-}
-
-.social img:hover {
-	transform: scale(1.2);
-}
-
-@media (max-width: 48rem) {
-	.social {
-		gap: 0.938rem;
-	}
-
-	.social img {
-		width: 1.875rem;
-		height: 1.875rem;
-	}
-}
-
-.footer {
-	background-color: var(--white);
-	color: var(--black);
-	text-align: center;
 	padding: 1.25rem 0;
 }
 
