@@ -1,19 +1,4 @@
 /*css for both blog and work, since they are the same, almost*/
-#footerNavMenu li{
-    list-style: none;
-    float: right;
-    margin: 1rem 0.625rem;
-}
-
-
-#mainContent{
-    margin: 4.375rem 9.375rem;
-}
-
-#homeRed{
-    color: red;
-}
-
 .blogText{
     margin-bottom: 3.125rem;
 }
@@ -55,7 +40,6 @@ hr{
     padding: 0.125rem 0.75rem;
     margin-right: 1.75rem;
     box-shadow: 100 0.25rem 0.625rem rgb(3,3,43);
-
 }
 
 .blogMain h2{
@@ -74,23 +58,3 @@ hr{
 .greyText{
     color: lightgrey;
 }
-
-footer #imagenes{
-    display: flex;
-    gap: 0.625rem;
-    justify-content: center;
-    padding-bottom: 0.625rem;
-    
-}
-
-footer img{
-    width: 1.875rem;
-    height: 1.875rem;
-}
-
-footer p{
-    display: block;
-    text-align: center;
-    padding-bottom: 4.0625rem;
-}
-
