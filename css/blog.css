@@ -1,60 +1,68 @@
 /*css for both blog and work, since they are the same, almost*/
-.blogText{
-    margin-bottom: 3.125rem;
+.blogText {
+	margin-bottom: 3.125rem;
 }
 
-.contentImage{
-    display: flex;
-    gap: 1rem;
+.contentImage {
+	display: flex;
+	gap: 1rem;
 }
 
-@media (max-width: 768px){
-    .contentImage{
-        display: block;
-        padding: 0.25rem 0rem;
-    }
+@media (max-width: 768px) {
+	.contentImage {
+		display: block;
+		padding: 0.25rem 0rem;
+	}
 }
 
-.contentImage img{
-    width: 10rem;
-    height: 10rem;
+.contentImage img {
+	width: 10rem;
+	height: 10rem;
 }
 
-hr{
-    margin: 1.25rem 0rem;
+hr {
+	margin: 1.25rem 0rem;
 }
 
-.blogMain #date{
-    font-weight: bolder;
-    font-size: 1.125rem;
+.blogMain #date {
+	font-weight: bolder;
+	font-size: 1.125rem;
 }
 
-.blogMain #vr{
-    padding: 0rem 2rem;
+.blogMain #vr {
+	padding: 0rem 2rem;
 }
 
-.blogMain #borderbox{
-    border-radius: 1rem;
-    background-color: rgb(3, 3, 43);
-    color: white;
-    padding: 0.125rem 0.75rem;
-    margin-right: 1.75rem;
-    box-shadow: 100 0.25rem 0.625rem rgb(3,3,43);
+.blogMain #borderbox {
+	border-radius: 1rem;
+	background-color: rgb(3, 3, 43);
+	color: white;
+	padding: 0.125rem 0.75rem;
+	margin-right: 1.75rem;
+	box-shadow: 100 0.25rem 0.625rem rgb(3, 3, 43);
 }
 
-.blogMain h2{
-    margin: 0.4375rem 0rem;
-}
-.blogMain p{
-    margin: 0.4375rem 0rem;
+.blogMain h2 {
+    position: relative;
+	margin: 0.4375rem 0rem;
 }
 
-.blogMain h3{
-    display: inline;
-    margin: 0.3125rem 0rem;
-    white-space: pre;
+.blogMain a {
+	text-decoration: none;
+	color: var(--dark-color);
+	border-bottom: 1.5px solid black;
 }
 
-.greyText{
-    color: lightgrey;
+.blogMain p {
+	margin: 0.4375rem 0rem;
+}
+
+.blogMain h3 {
+	display: inline;
+	margin: 0.3125rem 0rem;
+	white-space: pre;
+}
+
+.greyText {
+	color: lightgrey;
 }
