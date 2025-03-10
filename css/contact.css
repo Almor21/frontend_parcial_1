@@ -1,18 +1,13 @@
-.formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1.25rem;
-}
-
 .form-container {
-    background-color: white;
+    background-color: var(--white-color);
     padding: 1.25rem;
     border-radius: 0.5rem;
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 75rem; /* Limita el ancho en pantallas grandes */
+    max-width: 40rem;
     text-align: center;
+    box-sizing: border-box;
+    align-self: center;
 }
 
 form {
@@ -36,9 +31,13 @@ input, textarea {
     box-sizing: border-box;
 }
 
+textarea {
+    resize: none;
+}
+
 button {
-    background-color: var(--primary);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     padding: 0.625rem;
     font-size: 1rem;
     border: none;
@@ -49,15 +48,4 @@ button {
 
 button:hover {
     background-color: #ff4141;
-}
-
-@media (max-width: 48rem) {
-    .form-container {
-        max-width: 90%; /* Hace que el formulario se adapte */
-        padding: 0.9375rem;
-    }
-
-    input, textarea {
-        font-size: 1rem; /* Aumenta legibilidad */
-    }
 }
